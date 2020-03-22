@@ -1,0 +1,137 @@
+﻿body {
+    color: black;
+    background: #fff9b6;
+    margin: 0;
+    font-family: Arial;
+}
+nav{
+    background: black;  
+}
+nav ul li {
+    text-align: center;
+    color: white;
+    background: none;
+    display: inline-block;
+    padding: 5px;
+    width: 10%;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+nav ul{
+    background: black;
+    padding-top: 0px;
+    margin: 0;
+}
+header {
+    background: black;
+} 
+
+h1 {
+    font-size: 40px;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    margin-left: 2%;
+    float: left;
+ }
+
+.aboutdes{
+    text-align: center;
+    margin: 50px;
+}
+
+.instructions{
+    text-align: center;
+    padding-top: 20px;
+}
+
+h2{
+    font-size: 40px;
+    margin: 0;
+}
+
+.instructions p{
+    font-size: 25px;
+    margin: 10px;
+}
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    z-index: -1;
+}
+
+.box{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.inputfile + label {
+    max-width: 80%;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+}
+
+.no-js .inputfile + label {
+    display: none;
+}
+
+.inputfile:focus + label,
+.inputfile.has-focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    margin-right: 0.25em;
+}
+
+.inputfile-1 + label {
+    color: #f1e5e6;
+    background-color: #d3394c;
+}
+
+.inputfile-1:focus + label,
+.inputfile-1.has-focus + label,
+.inputfile-1 + label:hover {
+    background-color: #722040;
+}
+
+.logo{
+    float: right;
+    margin-right: 1.5%;
+    margin-top: 10px;
+}
+
+.fc_logo{
+    float: left;
+    margin-left: 1.5%;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.preview{
+    text-align: center;
+    margin-top: 30px;
+
+}
